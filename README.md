@@ -1,7 +1,9 @@
 # bitstream-panic
 Bitstream Panic
+
 Game inspired by the game in TRON
-Created By Sonic Waves TM
+
+Created By Sonic Waves TM (When I was still in gradeschool)
 
 
 Controlls: Space: Insert Coin Move Mouse: Rotate Turret Left Mouse Button: Fire!
