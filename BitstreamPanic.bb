@@ -50,6 +50,7 @@ Global highscore=0
 Global grab=0
 Global game#=3
 Global wave#=1
+Global FrameWait=CreateTimer(30)
 
 ; Setup Channel Handles
 Global ChnMusic
@@ -292,6 +293,7 @@ DrawImage gfxcrosshair, GraphicsWidth()/2, GraphicsHeight()/2
 Text 0,0,"Wave: "+Int(wave#)
 Text 0,12,"Life: "+Int(game)
 Text 0,22,"Score: "+Score
+WaitTimer(FrameWait)
 Flip
 Wend
 ;  *********************************
